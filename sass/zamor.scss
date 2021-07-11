@@ -1,0 +1,557 @@
+.zamor01{
+    background-image: url("../img/zamor_desktop/image_part_001.png");
+    width:125px;
+    height:125px;
+
+    
+    animation: movezamor1 5s 1 ease-in-out;
+
+        @keyframes movezamor1{
+
+            0%{
+                opacity: 0.5;
+                grid-area: 6 / 1 / 5 / 2;
+            }
+            20% {
+                grid-area: 4 / 1 / 5 / 2;
+            }
+            40%{
+                grid-area: 3 / 1 / 4 / 2;
+            }
+            60%{
+                grid-area: 2 / 1 / 3 / 2;
+            }
+            100%{
+                grid-area: 1 / 1 / 2 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.zamor02{ 
+    background-image: url("../img/zamor_desktop/image_part_002.png");
+    width:125px;
+    height:125px;
+
+        animation: movezamor2 5s 1 ease-in-out;
+        animation-delay: 7s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor2{
+            0%{
+                opacity: 0;
+                grid-area: 1 / 2 / 2 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor03{
+    background-image: url("../img/zamor_desktop/image_part_003.png");
+    width:125px;
+    height:125px;
+
+        animation: movezamor3 5s 1 ease-in-out;
+        animation-delay: 8s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor3{
+            0%{
+                opacity: 0;
+                grid-area: 1 / 3 / 2 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor04{
+    background-image: url("../img/zamor_desktop/image_part_004.png");
+    width:125px;
+    height:125px;
+
+    animation: movezamor4 5s 1 ease-in-out;
+    animation-delay: 9s;
+    animation-fill-mode: backwards;
+
+    @keyframes movezamor4{
+        0%{
+            opacity: 0;
+            grid-area: 1 / 4 / 2 / 5;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.zamor05{
+    background-image: url("../img/zamor_desktop/image_part_005.png");
+    width:125px;
+    height:125px;
+        
+        animation: movezamor5 5s 1 ease-in-out;
+        animation-delay: 1s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor5{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 1 / 5 / 2;
+            }
+            25% {
+                grid-area: 4 / 1 / 5 / 2;
+            }
+            75%{
+                grid-area: 3 / 1 / 4 / 2;
+            }
+            100%{
+                grid-area: 2 / 1 / 3 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor06{
+    background-image: url("../img/zamor_desktop/image_part_006.png");
+    width:125px;
+    height:125px;
+
+        animation: movezamor6 5s 1 ease-in-out;
+        animation-delay: 4s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor6{
+            0%{
+                opacity: 0;
+                grid-area: 1 / 2 / 2 / 3;
+            }
+            100% {
+                grid-area: 3 / 2 / 4 / 3;
+            }
+        }    
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor07{
+    background-image: url("../img/zamor_desktop/image_part_007.png");
+    width:125px;
+    height:125px;
+        animation: movezamor7 5s 1 ease-in-out;
+        animation-delay: 5s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor7{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 3 / 5 / 4;
+            }
+            25% {
+                grid-area: 4 / 3 / 5 / 4;
+            }
+            75%{
+                grid-area: 3 / 3 / 4 / 4;
+            }
+            100%{
+                grid-area: 2 / 3 / 3 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor08{
+    background-image: url("../img/zamor_desktop/image_part_008.png");
+    width:125px;
+    height:125px;
+
+        animation: movezamor8 5s 1 ease-in-out;
+        animation-delay: 6s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor8{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 1 / 5 / 2;
+            }
+            100% {
+                grid-area: 4 / 1 / 5 / 2;
+            }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.zamor09{
+    background-image: url("../img/zamor_desktop/image_part_009.png");
+    width:125px;
+    height:125px;
+
+    animation: movezamor9 5s 1 ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+
+    @keyframes movezamor9{
+
+        0%{
+            opacity: 0;
+            grid-area: 6 / 1 / 5 / 2;
+        }
+        50% {
+            grid-area: 4 / 1 / 5 / 2;
+        }
+        100%{
+            grid-area: 3 / 1 / 4 / 2;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.zamor10{
+    background-image: url("../img/zamor_desktop/image_part_010.png");
+    width:125px;
+    height:125px;
+
+        animation: movezamor10 5s 1 ease-in-out;
+        animation-delay: 3s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor10{
+
+            0%{
+                opacity: 0;
+                grid-area: 1 / 2 / 2 / 3;
+            }
+            50% {
+                grid-area: 2 / 2 / 3 / 3;
+            }
+            100%{
+                grid-area: 3 / 2 / 4 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor11{
+    background-image: url("../img/zamor_desktop/image_part_011.png");
+    width:125px;
+    height:125px;
+    
+        animation: movezamor11 5s 1 ease-in-out;
+        animation-delay: 3s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor11{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 3 / 5 / 4;
+            }
+            50% {
+                grid-area: 4 / 3 / 5 / 4;
+            }
+            100%{
+                grid-area: 3 / 3 / 4 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor12{
+    background-image: url("../img/zamor_desktop/image_part_012.png");
+    width:125px;
+    height:125px;   
+    
+        animation: movezamor12 5s 1 ease-in-out;
+        animation-delay: 2s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor12{
+
+            0%{
+                opacity: 0;
+                grid-area: 1 / 4 / 2 / 5;
+            }
+            50% {
+                grid-area: 2 / 4 / 3 / 5;
+            }
+            100%{
+                grid-area: 3 / 4 / 4 / 5;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor13{
+    background-image: url("../img/zamor_desktop/image_part_013.png");
+    width:125px;
+    height:125px;
+
+    animation: movezamor13 5s 1 ease-in-out;
+    animation-delay: 6s;
+    animation-fill-mode: backwards;
+
+    @keyframes movezamor13{
+
+        0%{
+            opacity: 0;
+            grid-area: 6 / 1 / 5 / 2;
+        }
+        100% {
+            grid-area: 4 / 1 / 5 / 2;
+        }
+    }   
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+.zamor14{
+    background-image: url("../img/zamor_desktop/image_part_014.png");
+    width:125px;
+    height:125px;
+  
+        animation: movezamor14 5s 1 ease-in-out;
+        animation-delay: 5s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor14{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 2 / 5 / 3;
+            }
+            100% {
+                grid-area: 4 / 2 / 5 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.zamor15{
+    background-image: url("../img/zamor_desktop/image_part_015.png");
+    width:125px;
+    height:125px;
+    
+        animation: movezamor15 5s 1 ease-in-out;
+        animation-delay: 4s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor15{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 3 / 5 / 4;
+            }
+            100% {
+                grid-area: 4 / 3 / 3 / 4;
+            }
+        }   
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor16{
+    background-image: url("../img/zamor_desktop/image_part_016.png");
+    width:125px;
+    height:125px;
+
+        animation: movezamor16 5s 1 ease-in-out;
+        animation-delay: 1s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor16{
+
+            0%{
+                opacity: 0;
+                grid-area: 1 / 4 / 2 / 5;
+            }
+            25% {
+                grid-area: 2 / 4 / 3 / 5;
+            }
+            75%{
+                grid-area: 3 / 4 / 4 / 5;
+            }
+            100%{
+                grid-area: 4 / 4 / 5 / 5;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor17{
+    background-image: url("../img/zamor_desktop/image_part_017.png");
+    width:125px;
+    height:125px;
+
+        animation: movezamor17 5s 1 ease-in-out;
+        animation-delay: 9s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor17{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 1 / 5 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor18{
+    background-image: url("../img/zamor_desktop/image_part_018.png");
+    width:125px;
+    height:125px;
+
+        animation: movezamor18 5s 1 ease-in-out;
+        animation-delay: 8s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor18{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 2 / 5 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor19{
+    background-image: url("../img/zamor_desktop/image_part_019.png");
+    width:125px;
+    height:125px;
+
+        animation: movezamor19 5s 1 ease-in-out;
+        animation-delay: 7s;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor19{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 3 / 5 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.zamor20{
+    background-image: url("../img/zamor_desktop/image_part_020.png");
+    width:125px;
+    height:125px;
+
+        animation: movezamor20 5s 1 ease-in-out;
+        animation-fill-mode: backwards;
+
+        @keyframes movezamor20{
+            0%{
+                opacity: 0.5;
+                grid-area: 1 / 4 / 2 / 5;
+            }
+            20% {
+                grid-area: 2 / 4 / 3 / 5;
+            }
+            40%{
+                grid-area: 3 / 4 / 4 / 5;
+            }
+            60%{
+                grid-area: 4 / 4 / 5 / 5;
+            }
+            100%{
+                grid-area: 5 / 4 / 6 / 5;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}

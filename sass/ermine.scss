@@ -1,0 +1,623 @@
+.ermine01{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_001.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine1 5s 1 ease-in-out;
+
+        @keyframes moveermine1{
+
+            0% {
+                opacity: 0;
+                grid-area: 1 / 4 / 2 / 5 ;
+            }
+            25% {
+                opacity: 0.5;
+                grid-area: 1 / 4 / 2 / 5 ;
+            }
+            50%{
+                grid-area: 1 / 3 / 2 / 4 ;
+            }
+            75%{
+                grid-area: 1 / 2 / 2 / 3 ;
+            }
+            100%{
+                grid-area: 1 / 1 / 2 / 2 ;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.ermine02{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_002.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine2 5s 1 ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine2{
+        
+        0%{
+            opacity: 0;
+            grid-area: 1 / 4 / 2 / 5 ;
+        }
+        25% {
+            grid-area: 1 / 4 / 2 / 5 ;
+        }
+        75%{
+            grid-area: 1 / 3 / 2 / 4 ;
+        }
+        100%{
+            grid-area: 1 / 2 / 2 / 3 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine03{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_003.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine3 5s 1 ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine3{
+
+        0%{
+            opacity: 0;
+            grid-area: 1 / 4 / 2 / 5 ;
+        }
+        50% {
+            grid-area: 1 / 4 / 2 / 5 ;
+        }
+        100%{
+            grid-area: 1 / 3 / 2 / 4 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine04{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_004.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine4 5s 1 ease-in-out;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine4{
+        0%{
+            opacity: 0;
+            grid-area: 1 / 4 / 2 / 5;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine05{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_005.png");
+    width:125px;
+    height:125px;
+        
+    animation: moveermine5 5s 1 ease-in-out;
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+
+        @keyframes moveermine5{
+
+            0% {
+                opacity: 0;
+                grid-area: 2 / 4 / 3 / 5 ;
+            }
+            25% {
+                opacity: 0.5;
+                grid-area: 2 / 4 / 3 / 5 ;
+            }
+            50%{
+                grid-area: 2 / 3 / 3 / 4 ;
+            }
+            75%{
+                grid-area: 2 / 2 / 3 / 3 ;
+            }
+            100%{
+                grid-area: 2 / 1 / 3 / 2 ;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.ermine06{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_006.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine6 5s 1 ease-in-out;
+    animation-delay: 6s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine6{
+        
+        0%{
+            opacity: 0;
+            grid-area: 2 / 4 / 3 / 5 ;
+        }
+        25% {
+            grid-area: 2 / 4 / 3 / 5 ;
+        }
+        75%{
+            grid-area: 2 / 3 / 3 / 4 ;
+        }
+        100%{
+            grid-area: 2 / 2 / 3 / 3 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine07{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_007.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine7 5s 1 ease-in-out;
+    animation-delay: 7s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine7{
+
+        0%{
+            opacity: 0;
+            grid-area: 2 / 4 / 3 / 5 ;
+        }
+        50% {
+            grid-area: 2 / 4 / 3 / 5 ;
+        }
+        100%{
+            grid-area: 2 / 3 / 3 / 4 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine08{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_008.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine8 5s 1 ease-in-out;
+    animation-delay: 12s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine8{
+        0%{
+            opacity: 0;
+            grid-area: 2 / 4 / 3 / 5;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine09{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_009.png");
+    width:125px;
+    height:125px;
+        
+    animation: moveermine9 5s 1 ease-in-out;
+    animation-delay: 8s;
+    animation-fill-mode: backwards;
+
+        @keyframes moveermine9{
+
+            0% {
+                opacity: 0;
+                grid-area: 3 / 4 / 4 / 5 ;
+            }
+            25% {
+                opacity: 0.5;
+                grid-area: 3 / 4 / 4 / 5 ;
+            }
+            50%{
+                grid-area: 3 / 3 / 4 / 4 ;
+            }
+            75%{
+                grid-area: 3 / 2 / 4 / 3 ;
+            }
+            100%{
+                grid-area: 3 / 1 / 4 / 2 ;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.ermine10{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_010.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine10 5s 1 ease-in-out;
+    animation-delay: 9s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine10{
+        
+        0%{
+            opacity: 0;
+            grid-area: 3 / 4 / 4 / 5 ;
+        }
+        25% {
+            grid-area: 3 / 4 / 4 / 5 ;
+        }
+        75%{
+            grid-area: 3 / 3 / 4 / 4 ;
+        }
+        100%{
+            grid-area: 3 / 2 / 4 / 3 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine11{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_011.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine11 5s 1 ease-in-out;
+    animation-delay: 12s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine11{
+
+        0%{
+            opacity: 0;
+            grid-area: 3 / 4 / 4 / 5 ;
+        }
+        50% {
+            grid-area: 3 / 4 / 4 / 5 ;
+        }
+        100%{
+            grid-area: 3 / 3 / 4 / 4 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine12{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_012.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine12 5s 1 ease-in-out;
+    animation-delay: 15s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine12{
+        0%{
+            opacity: 0;
+            grid-area: 3 / 4 / 4 / 5;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine13{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_013.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine13 5s 1 ease-in-out;
+    animation-delay: 10s;
+    animation-fill-mode: backwards;
+
+        @keyframes moveermine13{
+
+            0% {
+                opacity: 0;
+                grid-area: 4 / 4 / 5 / 5 ;
+            }
+            25% {
+                opacity: 0.5;
+                grid-area: 4 / 4 / 5 / 5 ;
+            }
+            50%{
+                grid-area: 4 / 3 / 5 / 4 ;
+            }
+            75%{
+                grid-area: 4 / 2 / 5 / 3 ;
+            }
+            100%{
+                grid-area: 4 / 1 / 5 / 2 ;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.ermine14{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_014.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine14 5s 1 ease-in-out;
+    animation-delay: 13s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine14{
+
+        0%{
+            opacity: 0;
+            grid-area: 4 / 4 / 5 / 5 ;
+        }
+        50% {
+            grid-area: 4 / 4 / 5 / 5 ;
+        }
+        100%{
+            grid-area: 4 / 3 / 5 / 4 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine15{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_015.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine15 5s 1 ease-in-out;
+    animation-delay: 16s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine15{
+
+        0%{
+            opacity: 0;
+            grid-area: 4 / 4 / 5 / 5 ;
+        }
+        50% {
+            grid-area: 4 / 4 / 5 / 5 ;
+        }
+        100%{
+            grid-area: 4 / 3 / 5 / 4 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine16{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_016.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine16 5s 1 ease-in-out;
+    animation-delay: 18s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine16{
+
+        0% {
+            opacity: 0;
+            grid-area: 4/4/5/5;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine17{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_017.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine17 5s 1 ease-in-out;
+    animation-delay: 11s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine17{
+        
+        0%{
+            opacity: 0;
+            grid-area: 5 / 4 / 6 / 5 ;
+        }
+        25% {
+            grid-area: 5 / 4 / 6 / 5 ;
+        }
+        75%{
+            grid-area: 5 / 3 / 6 / 4 ;
+        }
+        100%{
+            grid-area: 5 / 2 / 6 / 3 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine18{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_018.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine18 5s 1 ease-in-out;
+    animation-delay: 17s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine18{
+
+        0%{
+            opacity: 0;
+            grid-area: 5 / 4 / 6 / 5 ;
+        }
+        50% {
+            grid-area: 5 / 4 / 6 / 5 ;
+        }
+        100%{
+            grid-area: 5 / 3 / 6 / 4 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine19{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_019.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine19 5s 1 ease-in-out;
+    animation-delay: 19s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine19{
+
+        0%{
+            opacity: 0;
+            grid-area: 5 / 4 / 6 / 5 ;
+        }
+        50% {
+            grid-area: 5 / 4 / 6 / 5 ;
+        }
+        100%{
+            grid-area: 5 / 3 / 6 / 4 ;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.ermine20{
+    background-image: url("../img/lady_with_an_ermine_desktop/image_part_020.png");
+    width:125px;
+    height:125px;
+
+    animation: moveermine20 5s 1 ease-in-out;
+    animation-delay: 20s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveermine20{
+        0%{
+            opacity: 0;
+            grid-area: 6 / 4 / 5 / 5;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+

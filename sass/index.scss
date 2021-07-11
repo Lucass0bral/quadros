@@ -1,0 +1,141 @@
+$color1: #402313; 
+$color2:#A68776;
+$color3: #faebd7;
+$font: 1rem;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&family=Source+Sans+Pro:ital,wght@1,300;1,400&display=swap');
+
+@mixin mobile{
+    @media (max-width: 500px) { @content; }
+}@mixin tablet {
+    @media (max-width: 900px) { @content; }
+}@mixin laptop{
+    @media (max-width: 1200px) { @content; }
+}
+
+body{
+    position: relative;
+    margin: 0;
+}
+
+.home{
+    background-color: $color1;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mt{
+    margin-top: 100px;
+
+    @include mobile{
+        margin-top: 50px;
+    }
+}
+
+.desenho1{
+   background: url("../img/desenho1.png");
+   width: 100%;
+   height: 690px;
+   position: absolute;
+   z-index: -1;
+   background-size: cover;
+   background-position: center;
+
+   @include tablet{
+    height: 600px;
+   }
+
+   @include mobile{
+    height: 520px;
+   }
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: $font*5;
+    color: $color1;
+    margin-bottom: 15px;
+    padding-top: 60px;
+
+    @include mobile{
+        font-size: $font*2.5;
+    }
+}
+
+p{
+    text-align: center;
+    font-size: $font*1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $color1;
+    width: 75%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+  
+    @include laptop{
+        width: 90%;
+    }
+
+    @include tablet{
+        font-size: $font*1.5;
+    }
+
+    @include mobile{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        font-size: $font;
+    } 
+
+}
+
+.desenho2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/desenho2.png") ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 115px;
+
+    @include laptop{
+        margin-top: 95px;
+    }
+
+    @include tablet{
+        margin-top: 45px;
+    }
+
+    @include mobile{
+        width: 250px;
+        height: 100px;
+        margin-top: 95px;
+    }
+
+    a{ 
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: $font*2;
+        color: $color1;
+        text-decoration: none;
+
+        
+        @include mobile{
+            font-size: $font*1.5;
+        }
+    }
+
+}
+
+
+

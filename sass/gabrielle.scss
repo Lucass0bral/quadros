@@ -1,0 +1,618 @@
+/*grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end;*/  
+
+.gabrielle01{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_001.png");
+    width:125px;
+    height:125px;
+
+    animation: movegab1 5s 1 ease-in-out;
+
+        @keyframes movegab1{
+
+            0%{
+                opacity: 0.5;
+                grid-area: 6 / 1 / 5 / 2;
+            }
+            20% {
+                grid-area: 4 / 1 / 5 / 2;
+            }
+            40%{
+                grid-area: 3 / 1 / 4 / 2;
+            }
+            60%{
+                grid-area: 2 / 1 / 3 / 2;
+            }
+            100%{
+                grid-area: 1 / 1 / 2 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.gabrielle02{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_002.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab2 5s 1 ease-in-out;
+        animation-delay: 1s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab2{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 2 / 5 / 3;
+            }
+            10%{
+                opacity: 0.5;
+                grid-area: 6 / 2 / 5 / 3;
+            }
+            20% {
+                grid-area: 4 / 2 / 5 / 3;
+            }
+            40%{
+                grid-area: 3 / 2 / 4 / 3;
+            }
+            60%{
+                grid-area: 2 / 2 / 3 / 3;
+            }
+            100%{
+                grid-area: 1 / 2 / 2 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.gabrielle03{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_003.png");
+    width:125px;
+    height:125px;
+ 
+        animation: movegab3 5s 1 ease-in-out;
+        animation-delay: 2s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab3{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 3 / 5 / 4;
+            }
+            10%{
+                opacity: 0.5;
+                grid-area: 6 / 3 / 5 / 4;
+            }
+            20% {
+                grid-area: 4 / 3 / 5 / 4
+            }
+            40%{
+                grid-area: 3 / 3 / 4 / 4
+            }
+            60%{
+                grid-area: 2 / 3 / 3 / 4
+            }
+            100%{
+                grid-area: 1 / 3 / 2 / 4
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.gabrielle04{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_004.png");
+    width:125px;
+    height:125px;
+
+    animation: movegab4 5s 1 ease-in-out;
+        animation-delay: 3s;
+        animation-fill-mode: backwards;
+    
+        @keyframes movegab4{
+    
+            0%{
+                opacity: 0;
+                grid-area: 6 / 4 / 5 / 5;
+            }
+            10%{
+                opacity: 0.5;
+                grid-area: 6 / 4 / 5 / 5;
+            }
+            20% {
+                grid-area: 4 / 4 / 5 / 5;
+            }
+            40%{
+                grid-area: 3 / 4 / 4 / 5;
+            }
+            60%{
+                grid-area: 2 / 4 / 3 / 5;
+            }
+            100%{
+                grid-area: 1 / 4 / 2 / 5;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.gabrielle05{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_005.png");
+    width:125px;
+    height:125px;
+
+    animation: movegab5 5s 1 ease-in-out;
+    animation-delay: 4s;
+    animation-fill-mode: backwards;
+
+    @keyframes movegab5{
+
+        0%{
+            opacity: 0;
+            grid-area: 6 / 1 / 5 / 2;
+        }
+        25% {
+            grid-area: 4 / 1 / 5 / 2;
+        }
+        75%{
+            grid-area: 3 / 1 / 4 / 2;
+        }
+        100%{
+            grid-area: 2 / 1 / 3 / 2;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.gabrielle06{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_006.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab6 5s 1 ease-in-out;
+        animation-delay: 5s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab6{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 2 / 5 / 3;
+            }
+            25% {
+                grid-area: 4 / 2 / 5 / 3;
+            }
+            75%{
+                grid-area: 3 / 2 / 4 / 3;
+            }
+            100%{
+                grid-area: 2 / 2 / 3 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.gabrielle07{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_007.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab7 5s 1 ease-in-out;
+        animation-delay: 6s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab7{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 3 / 5 / 4;
+            }
+            25% {
+                grid-area: 4 / 3 / 5 / 4;
+            }
+            75%{
+                grid-area: 3 / 3 / 4 / 4;
+            }
+            100%{
+                grid-area: 2 / 3 / 3 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.gabrielle08{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_008.png");
+    width:125px;
+    height:125px;
+
+    animation: movegab8 5s 1 ease-in-out;
+    animation-delay: 7s;
+    animation-fill-mode: backwards;
+
+    @keyframes movegab8{
+
+        0%{
+            opacity: 0;
+            grid-area: 6 / 4 / 5 / 5;
+        }
+        25% {
+            grid-area: 4 / 4 / 5 / 5;
+        }
+        75%{
+            grid-area: 3 / 4 / 4 / 5;
+        }
+        100%{
+            grid-area: 2 / 4 / 3 / 5;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.gabrielle09{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_009.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab9 5s 1 ease-in-out;
+        animation-delay: 8s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab9{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 1 / 5 / 2;
+            }
+            50% {
+                grid-area: 4 / 1 / 5 / 2;
+            }
+            100%{
+                grid-area: 3 / 1 / 4 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.gabrielle10{ 
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_010.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab10 5s 1 ease-in-out;
+        animation-delay: 9s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab10{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 2 / 5 / 3;
+            }
+            50% {
+                grid-area: 4 / 2 / 5 / 3;
+            }
+            100%{
+                grid-area: 3 / 2 / 4 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.gabrielle11{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_011.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab11 5s 1 ease-in-out;
+        animation-delay: 10s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab11{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 3 / 5 / 4;
+            }
+            50% {
+                grid-area: 4 / 3 / 5 / 4;
+            }
+            100%{
+                grid-area: 3 / 3 / 4 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.gabrielle12{ 
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_012.png");
+    width:125px;
+    height:125px;
+
+    animation: movegab12 5s 1 ease-in-out;
+    animation-delay: 11s;
+    animation-fill-mode: backwards;
+
+    @keyframes movegab12{
+
+        0%{
+            opacity: 0;
+            grid-area: 6 / 4 / 5 / 5;
+        }
+        50% {
+            grid-area: 4 / 4 / 5 / 5;
+        }
+        100%{
+            grid-area: 3 / 4 / 4 / 5;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.gabrielle13{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_013.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab13 5s 1 ease-in-out;
+        animation-delay: 12s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab13{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 1 / 5 / 2;
+            }
+            100% {
+                grid-area: 4 / 1 / 5 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.gabrielle14{ 
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_014.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab14 5s 1 ease-in-out;
+        animation-delay: 13s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab14{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 2 / 5 / 3;
+            }
+            100% {
+                grid-area: 4 / 2 / 5 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.gabrielle15{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_015.png");
+    width:125px;
+    height:125px;
+
+    animation: movegab15 5s 1 ease-in-out;
+    animation-delay: 14s;
+    animation-fill-mode: backwards;
+
+    @keyframes movegab15{
+
+        0%{
+            opacity: 0;
+            grid-area: 6 / 3 / 5 / 4;
+        }
+        100% {
+            grid-area: 4 / 3 / 5 / 4;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.gabrielle16{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_016.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab16 5s 1 ease-in-out;
+        animation-delay: 15s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab16{
+
+            0%{
+                opacity: 0;
+                grid-area: 6 / 4 / 5 / 5;
+            }
+            100% {
+                grid-area: 4 / 4 / 5 / 5;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.gabrielle17{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_017.png");
+    width:125px;
+    height:125px;
+        
+        animation: movegab17 5s 1 ease-in-out;
+        animation-delay: 16s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab17{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 1 / 5 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.gabrielle18{ 
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_018.png");
+    width:125px;
+    height:125px;
+             
+        animation: movegab18 5s 1 ease-in-out;
+        animation-delay: 17s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab18{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 2 / 5 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.gabrielle19{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_019.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab19 5s 1 ease-in-out;
+        animation-delay: 18s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab19{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 3 / 5 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.gabrielle20{
+    background-image: url("../img/marie-gabrielle_capet_desktop/image_part_020.png");
+    width:125px;
+    height:125px;
+
+        animation: movegab20 5s 1 ease-in-out;
+        animation-delay: 19s;
+        animation-fill-mode: backwards;
+
+        @keyframes movegab20{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 4 / 5 / 5;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}

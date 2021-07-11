@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&family=Source+Sans+Pro:ital@1&display=swap");
+body {
+  background-color: #402313;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-top: 50px;
+  }
+}
+
+.desenho1 {
+  background: url("../img/desenho1.png");
+  width: 100vw;
+  height: 720px;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 600px) {
+  .desenho1 {
+    height: 680px;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  color: #402313;
+  margin-bottom: 15px;
+  padding-top: 60px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #402313;
+  width: 75%;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 900px) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  p {
+    width: 90%;
+  }
+}
+
+a {
+  position: absolute;
+  top: 625px;
+  background: url("../img/desenho2.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+}
+
+@media (max-width: 600px) {
+  a {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  a {
+    top: 580px;
+  }
+}
+
+a:link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  color: #402313;
+  text-decoration: none;
+  padding-right: 50px;
+}
+/*# sourceMappingURL=style.css.map */

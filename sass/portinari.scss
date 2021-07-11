@@ -1,0 +1,531 @@
+.portinari01{
+    background-image: url("../img/mestico_desktop/image_part_001.png");
+    width:125px;
+    height:125px;
+
+    animation: moveport1 5s 1 ease-in-out;
+
+        @keyframes moveport1{
+            0%{
+                opacity: 0;
+                grid-area: 1 / 4 / 2 / 5;
+            }
+            25%{
+                opacity: 0.1;
+                grid-area: 1 / 4 / 2 / 5;
+            }
+            50% {
+                grid-area: 1 / 3 / 2 / 4;
+            }
+            75%{
+                grid-area: 1 / 2 / 2 / 3;
+            }
+            100%{
+                grid-area: 1 / 1 / 2 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.portinari02{ 
+    background-image: url("../img/mestico_desktop/image_part_002.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport2 5s 1 ease-in-out;
+        animation-delay: 21s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport2{
+            0%{
+                opacity: 0;
+                grid-area: 1 / 2 / 2 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.portinari03{
+    background-image: url("../img/mestico_desktop/image_part_003.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport3 5s 1 ease-in-out;
+        animation-delay: 22s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport3{
+            0%{
+                opacity: 0;
+                grid-area: 1 / 3 / 2 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.portinari04{ 
+    background-image: url("../img/mestico_desktop/image_part_004.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport4 5s 1 ease-in-out;
+        animation-delay: 5s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport4{
+            0%{
+                opacity: 0;
+                grid-area: 1 / 2 / 2 / 3;
+            }
+            25% {
+                opacity: 0.1;
+                grid-area: 1 / 2 / 2 / 3;
+            }
+            75%{
+                grid-area: 1 / 3 / 2 / 4;
+            }
+            100%{
+                grid-area: 1 / 4 / 2 / 5;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.portinari05{
+    background-image: url("../img/mestico_desktop/image_part_005.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport5 5s 1 ease-in-out;
+        animation-delay: 17s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport5{
+            0%{
+                opacity: 0;
+                grid-area: 2 / 1 / 3 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.portinari06{
+    background-image: url("../img/mestico_desktop/image_part_006.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport6 5s 1 ease-in-out;
+        animation-delay: 8s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport6{
+            0%{
+                opacity: 0;
+                grid-area: 2 / 1 / 3 / 2;
+            }
+            100% {
+                grid-area: 2 / 2 / 3 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.portinari07{
+    background-image: url("../img/mestico_desktop/image_part_007.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport7 5s 1 ease-in-out;
+        animation-delay: 12s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport7{
+            0%{
+                opacity: 0;
+                grid-area: 2 / 4 / 3 / 5;
+            }
+            100% {
+                grid-area: 2 / 3 / 3 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.portinari08{
+    background-image: url("../img/mestico_desktop/image_part_008.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport8 5s 1 ease-in-out;
+        animation-delay: 19s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport8{
+            0%{
+                opacity: 0;
+                grid-area: 2 / 4 / 3 / 5;
+            }
+            100% {
+                grid-area: 2 / 4 / 3 / 5;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+    
+}
+
+.portinari09{
+    background-image: url("../img/mestico_desktop/image_part_009.png");
+    width:125px;
+    height:125px;
+
+    animation: moveport9 5s 1 ease-in-out;
+    animation-delay: 33s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveport9{
+        0%{
+            opacity: 0;
+            grid-area: 1 / 3 / 2 / 4;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.portinari10{
+    background-image: url("../img/mestico_desktop/image_part_010.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport10 5s 1 ease-in-out;
+        animation-delay: 16s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport10{
+            0%{
+                opacity: 0;
+                grid-area: 3 / 1 / 4 / 2;
+            }
+            100% {
+                grid-area: 3 / 2 / 4 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.portinari11{
+    background-image: url("../img/mestico_desktop/image_part_011.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport11 5s 1 ease-in-out;
+        animation-delay: 14s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport11{
+            0%{
+                opacity: 0;
+                grid-area: 3 / 4 / 4 / 5;
+            }
+            100% {
+                grid-area: 3 / 3 / 4 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.portinari12{
+    background-image: url("../img/mestico_desktop/image_part_012.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport12 5s 1 ease-in-out;
+        animation-delay: 23s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport12{
+            0%{
+                opacity: 0;
+                grid-area: 4 / 3 / 5 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.portinari13{ 
+    background-image: url("../img/mestico_desktop/image_part_013.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport13 5s 1 ease-in-out;
+        animation-delay: 20s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport13{
+            0%{
+                opacity: 0;
+                grid-area: 4 / 1 / 5 / 2;
+            }
+            100% {
+                grid-area: 4 / 1 / 5 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.portinari14{
+    background-image: url("../img/mestico_desktop/image_part_014.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport14 5s 1 ease-in-out;
+        animation-delay: 12s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport14{
+            0%{
+                opacity: 0;
+                grid-area: 4 / 1 / 5 / 2;
+            }
+            100% {
+                grid-area: 4 / 2 / 5 / 3;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.portinari15{
+    background-image: url("../img/mestico_desktop/image_part_015.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport15 5s 1 ease-in-out;
+        animation-delay: 10s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport15{
+            0%{
+                opacity: 0;
+                grid-area: 4 / 4 / 5 / 5;
+            }
+            100% {
+                grid-area: 4 / 3 / 5 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.portinari16{
+    background-image: url("../img/mestico_desktop/image_part_016.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport16 5s 1 ease-in-out;
+        animation-delay: 18s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport16{
+            0%{
+                opacity: 0;
+                grid-area: 4 / 4 / 5 / 5;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.portinari17{
+    background-image: url("../img/mestico_desktop/image_part_017.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport17 5s 1 ease-in-out;
+        animation-delay: 24s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport17{
+            0%{
+                opacity: 0;
+                grid-area: 5 / 3 / 6 / 4;
+            }
+            25% {
+                opacity: 0.5;
+                grid-area: 5 / 3 / 6 / 4;
+            }
+            75%{
+                grid-area: 5 / 2 / 6 / 3;
+            }
+            100%{
+                grid-area: 5 / 1 / 6 / 2;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
+
+.portinari18{
+    background-image: url("../img/mestico_desktop/image_part_018.png");
+    width:125px;
+    height:125px;
+
+    animation: moveport18 5s 1 ease-in-out;
+    animation-delay: 32s;
+    animation-fill-mode: backwards;
+
+    @keyframes moveport18{
+        0%{
+            opacity: 0;
+            grid-area: 6 / 2 / 5 / 3;
+        }
+    }
+
+    @include mobile{
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.portinari19{ 
+    background-image: url("../img/mestico_desktop/image_part_019.png");
+    width:125px;
+    height:125px;
+    
+        animation: moveport19 5s 1 ease-in-out;
+        animation-delay: 31s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport19{
+            0%{
+                opacity: 0;
+                grid-area: 6 / 3 / 5 / 4;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+
+}
+
+.portinari20{
+    background-image: url("../img/mestico_desktop/image_part_020.png");
+    width:125px;
+    height:125px;
+
+        animation: moveport20 5s 1 ease-in-out;
+        animation-delay: 28s;
+        animation-fill-mode: backwards;
+
+        @keyframes moveport20{
+            0%{
+                opacity: 0;
+                grid-area: 5 / 2 / 6 / 3;
+            }
+            25% {
+                opacity: 0.5;
+                grid-area: 5 / 2 / 6 / 3;
+            }
+            75%{
+                grid-area: 5 / 3 / 6 / 4;
+            }
+            100%{
+                grid-area: 5 / 4 / 6 / 5;
+            }
+        }
+
+        @include mobile{
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+        }
+}
